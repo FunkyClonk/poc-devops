@@ -19,7 +19,7 @@ spec:
         - name: harbor-secret
       containers:
         - name: poc-devops
-          image: 192.168.1.X:30002/poc/poc-devops:IMAGE_TAG
+          image: 192.168.1.103:30002/poc/poc-devops:IMAGE_TAG
           ports:
             - containerPort: 3000
           env:

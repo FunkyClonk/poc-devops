@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Remplace avec l'IP de ta VM K3s
-        HARBOR_URL     = '192.168.1.X:30002'
+        HARBOR_URL     = '192.168.1.103:30002'
         HARBOR_PROJECT = 'poc'
         IMAGE_NAME     = 'poc-devops'
         IMAGE_TAG      = "${BUILD_NUMBER}"
