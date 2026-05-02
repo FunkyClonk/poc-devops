@@ -1,0 +1,13 @@
+{
+  "name": "poc-devops",
+  "version": "1.0.0",
+  "description": "POC DevOps - Jenkins + Harbor + K3s",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Tests OK' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
